@@ -29,5 +29,5 @@ jobs:
 
           - name: 'Build Inventory Image'
             run: |
-              docker build . --tag ghcr.io/mendableai/firecrawl:latest --secret id=SENTRY_AUTH_TOKEN
-              docker push ghcr.io/mendableai/firecrawl:latest
+              docker build . --tag ghcr.io/donghongfei/firecrawl:latest --secret id=SENTRY_AUTH_TOKEN
+              docker push ghcr.io/donghongfei/firecrawl:latest
